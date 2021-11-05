@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding-top: 800px ;
+    text-align: center;
+}
+
+#image{
+    width: 250px;
+    height:250px;
+}
+
+#myintro{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: table;
+    width: 100%;
+    height:800px;
+    background:linear-gradient(red,orange,yellow);
+    z-index:8;
+}
+
+.verarangement{
+    display: table-cell;
+    vertical-align:middle;
+}
+
+#myBio{
+    padding:50px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;  
+}
+.main{
+    list-style: none ;
+    top: 10px; 
+    right: 30px;
+    position:fixed;
+    cursor: pointer;
+    z-index: 10;
+}
+.line{
+    height: 4px;
+    background-color:darkred;
+    width:70px;
+    margin: 6px auto;
+}
+.links{
+    float: left; 
+    padding-top: 9px;
+    padding-bottom:9px ;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+ }
+ .links:hover{
+     background-color:gold ;}
